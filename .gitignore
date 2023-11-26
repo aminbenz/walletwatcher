@@ -1,0 +1,73 @@
+# Python cache files
+server/app/__pycache__/
+server/__pycache__
+
+# Compiled Python files
+server/app/*.pyc
+server/app/*.pyo
+server/app/*.pyd
+
+# Environment files
+server/.env
+server/*.local
+server/.flaskenv
+
+# IDE and editor files
+server/app/.vscode/
+server/app/.idea/
+server/app/*.suo
+server/app/*.ntvs*
+server/app/*.njsproj
+server/app/*.sln
+server/app/*.sw?
+
+# Log files
+server/app/*.log
+
+# Python virtual environment
+server/venv/
+server/app/.python-version
+
+# Generated files and folders
+server/flask_session/
+
+# Ignore any local configurations or secrets
+# Add specific files or patterns for local configuration files here if needed
+
+# Ignore SQLite database files (if using SQLite)
+server/*.db
+
+# Ignore generated artifacts and dependencies
+server/app/*.egg-info/
+server/app/dist/
+server/app/build/
+server/app/*.egg
+
+client/env
+client/*.local
+
+# Node modules
+client/node_modules/
+
+# Built output
+client/dist/
+client/.vite/
+
+# IDE and editor files
+client/.vscode/
+client/.idea/
+client/*.suo
+client/*.ntvs*
+client/*.njsproj
+client/*.sln
+client/*.sw?
+
+# Log files
+client/*.log
+
+# Ignore any local configurations or secrets specific to the client-side
+# Add specific files or patterns for local configuration files here if needed
+
+# Ignore generated artifacts and dependencies
+client/build/
+client/*.egg-info/
